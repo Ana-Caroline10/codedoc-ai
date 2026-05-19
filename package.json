@@ -1,15 +1,25 @@
 {
   "name": "codedoc-ai",
   "version": "0.1.0",
-  "description": "Created with Synkra AIOX",
+  "private": true,
   "scripts": {
-    "dev": "echo 'Add your dev script'",
-    "build": "echo 'Add your build script'",
-    "test": "echo 'Add your test script'",
-    "lint": "echo 'Add your lint script'",
-    "typecheck": "echo 'Add your typecheck script'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "typescript": "^5"
+  }
 }
